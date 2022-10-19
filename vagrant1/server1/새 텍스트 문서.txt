@@ -1,0 +1,5 @@
+cmd 들어가서
+
+cd + 파일경로(C:\GEENI\PYTHONPROJECT\vagrant1\server1)
+
+=> 여기로 들어갈게. 

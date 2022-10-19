@@ -1,0 +1,53 @@
+1. 버추얼 박스 검색
+    Oracle VM VirtualBox 눌러서
+    다운로드 받기
+
+    window host로 다운
+
+2. VirtualBox 6.1.38 설치
+
+3. 하나 더 설치 vagrantup
+
+    https://www.vagrantup.com/vmware/downloads
+
+4. 본인 PC
+    CPU 인텔이면 -> 686으로 설치
+    AMD 이면 ->  AMD64로 설치
+
+5. 재시작하면 됩니다.
+
+6. CMDER 검색해서 다운로드
+    Cmder | Console Emulator 여기 들어가기
+
+7. 다운로드 Full로 받기
+
+8. vagrant 설치 됬으면 파이썬 폴더로 가서
+ vagrant 폴더 만들고 그 안에 server1 폴더 만들기
+
+    [cmder로 폴더만들기]
+    cd c:\Python작업폴더\
+    mkdir vagrant
+    cd vagrant
+    mkdir server1
+    cd server1
+      =====> 이렇게 만들어도 됩니다.
+
+9. vagrant cloud 홈페이지 들어가서 첫번째 목록 들어가.
+
+    server1 폴더 안에서 위에 URL 창에 cmd로 들어가서
+
+    vagrant init ubuntu/trusty64
+            이거 먼저 하고(이 그림파일을 쓰겠다는 이야기)
+            ***** vagrant init 이미지명 *****
+    vagrant up
+            이거 쓰세요.(설치하겠다는 이야기?)
+
+10. cmder 창에서는 vagrant up 입력
+    설치되는것 보임
+    ls 하면 확인할수 있다고 함...
+
+9.vagrant 리눅스 접속
+    vagrant ssh
+
+
+    ***다음엔 HTML 할 예정
